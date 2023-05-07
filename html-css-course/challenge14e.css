@@ -1,0 +1,56 @@
+body {
+        height: 1000px;
+      }
+      .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 50px;
+        background-color: white;
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+      .left-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+      }
+      .profile-image {
+        height: 40px;
+        border-radius: 20px;
+        margin-right: 10px;
+      }
+      .name {
+        font-size: 16px;
+        font-weight: bold;
+        font-size: 16px;
+        font-family: Arial;
+      }
+      .right-section{
+        align-items: center;
+      }
+      .add-friend,.message {
+        font-size: 14px;
+        border: none;
+        border-radius: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-right: 5px;
+        font-weight: bold;
+        font-family: Arial;
+      }
+      .add-friend {
+        background-color: rgb(44, 88, 210);
+        color: white;
+      }
+      .message {
+        background-color: rgb(228, 214, 214);
+        color: black;
+      }

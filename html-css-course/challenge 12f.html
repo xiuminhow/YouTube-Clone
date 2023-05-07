@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .section {
+        background-color: purple;
+        width: 1000px;
+        height: 50px;
+
+      }
+      .flexbox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      p {
+        color: white;
+        font-family: Arial;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      .middle-section {
+        width: 700px;
+      }
+      .search-bar {
+        border-radius: 20px;
+        border: none;
+        width: 100%;
+        height: 30px;
+        padding-left: 20px;
+        font-size: 14px;
+        font-family: Arial;
+      }
+      button {
+        font-family: Arial;
+        font-size: 16px;
+        border-style: solid;
+        color: white;
+        background-color: purple;
+        border-color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-width: 1px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="section">
+      <div class="flexbox">
+
+        <div class="left-section">
+          <p> Home </p>
+        </div>
+        <div class="middle-section">
+          <input class="search-bar" type="text" placeholder="Search">
+        </div>
+        <div class="right-section">
+          <button> Download </button>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

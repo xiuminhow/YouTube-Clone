@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      div, p {
+        font-family: Arial;
+        margin: 0;
+      }
+      .tweet-box {
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        width: 350px;
+      }
+      .youtube-link {
+        display: flex;
+        flex-direction: row;
+        border-color: gray;
+        align-items: center;
+        border-radius: 5px;
+        border-style: solid;
+        border-width: 1px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        height: 70px;
+        overflow: hidden;
+      }
+      .user-image {
+        width: 100px;
+        margin-right: 5px;
+      }
+      img {
+        width: 100%;
+        border-radius: 25px;
+      }
+      .profile-name {
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 5px;
+      }
+      span {
+        color: gray;
+        font-size: 16px;
+        font-weight: 500;
+      }
+      .tweet {
+        font-size: 14px;
+        margin-bottom: 15px;
+      }
+      .link {
+        color: gray;
+        margin-bottom: 5px;
+      }
+      .video-preview {
+        background-color: gray;
+        width: 100px;
+        height: 100px;
+        margin-right: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="tweet-box">
+      <div class="user-image">
+        <img src="images/Cat.webp">
+      </div>
+      <div class="tweet-section">
+        <div class="profile-name">Supersimple.dev <span>@SuperSimpleDev</span></div>
+        <p class="tweet">What is backend web development? A complete overview. New video is up!</p>
+        <div class="youtube-link">
+          <div class="video-preview"></div>
+          <div class="video-info">
+            <p class="link"> youtube.com </p>
+            <p class="youtube-title"> Backend web development - a complete overview (2021) </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

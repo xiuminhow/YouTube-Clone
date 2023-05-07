@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .flexbox {
+        display: flex;
+        flex-direction: row;
+      }
+      .pinkbox {
+        background-color: lightpink;
+        width: 100px;
+      }
+      .bluebox {
+        background-color: lightblue;
+        width: 200px;
+      }
+      .row2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      p {
+        background-color: black;
+        color: white;
+        margin-top: 0;
+      }
+    
+    </style>
+  </head>
+  <body>
+    <div class="flexbox">
+      <div class="pinkbox"></div>
+      <div class="bluebox">
+        <div class="row1">row1</div>
+        <div class="row2">
+          <p>row2</p>
+          <p>row2</p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+.profile {
+  border: none;
+  box-shadow: 0px 1px 10px gray;
+  width: 200px;
+  display: inline-block;
+  margin-right: 20px;
+}
+.profile-info {
+  padding-left: 10px;
+  padding-bottom: 20px;
+}
+div,p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.profile-pic {
+  width: 200px;
+  margin-bottom: 10px;
+}
+.display-pic {
+  width: 100%;
+}
+.dp {
+  display: inline-block;
+  width: 35px;
+  margin-bottom: 10px;
+  margin-right: 5px;
+}
+.dp-pic {
+  width: 100%;
+  vertical-align: middle;
+  border-radius: 50px;
+}
+.info {
+  display: inline-block;
+  font-size: 14px;
+  vertical-align: middle;
+}
+.friends {
+  font-family: Arial;
+  font-size: 15px;
+  color: gray;
+}
+.name {
+  font-weight: bold;
+  font-family: Arial;
+  margin-bottom: 10px;
+}
+button {
+  background-color: blue;
+  color: white;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  border: none;
+  display: block;
+}

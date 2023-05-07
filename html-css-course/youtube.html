@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <Title> YouTube.com Clone using blocks & inline blocks </Title>
+    <style>
+      .search-bar {
+        display: block;
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+     .thumbnail {
+        width: 300px;
+        display: block;
+        margin-bottom: 1px;
+      }
+      .channel-display {
+        vertical-align: middle;
+        border-radius: 50px;
+        width: 40px;
+      }
+      .video-title {
+        display: inline-block;
+        vertical-align: middle;
+        font-family: Arial;
+        width: 200px;
+        font-size: 14px;
+        font-weight: bold;
+        margin-left: 10px;
+      }
+      .video-author,
+      .video-stats {
+        font-size: 11px;
+        font-family: Arial;
+        margin-left: 55px;
+        margin-bottom: 0;
+        margin-top: 0;
+        color: gray;
+      }
+      .video-preview {
+        display: inline-block;
+        width: 300px;
+        vertical-align: top;
+        margin-right: 10px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <input class="search-bar" type="text" placeholder="search">
+    <div class="video-preview">
+      <img class= "thumbnail" src = "youtube-images/thumbnail-1.webp">
+      <img class="channel-display" src = "youtube-images/channel-1.jpeg">
+      <p class="video-title"> Talking Tech and AI with Google CEO Sundar Pichai! </p>
+      <p class="video-author"> Marques Brownlee </p>
+      <p class="video-stats"> 3.4M views · 6 months ago </p>
+    </div>
+    <div class="video-preview">
+      <img class= "thumbnail" src = "youtube-images/thumbnail-2.webp">
+      <img class="channel-display" src = "youtube-images/channel-2.jpeg">
+      <p class="video-title"> Try Not To Laugh Challenge #9 </p>
+      <p class="video-author"> Markiplier </p>
+      <p class="video-stats"> 19M views · 4 years ago </p>
+    </div>
+    <div class="video-preview">
+      <img class= "thumbnail" src = "youtube-images/thumbnail-3.webp">
+      <img class="channel-display" src = "youtube-images/channel-3.jpeg">
+      <p class="video-title"> Crazy Tik Toks Taken Moments Before Disaster </p>
+      <p class="video-author"> SSSniperWolf </p>
+      <p class="video-stats"> 12M views · 1 year ago </p>
+    </div>
+  </body>
+</html>

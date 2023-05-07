@@ -1,0 +1,11 @@
+p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.model {
+  font-weight: bold;
+  font-size: 40px;
+}
+.underline-text {
+  text-decoration: underline;
+}

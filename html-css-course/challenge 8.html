@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Display Box and Inline-Block Exercise 8 </title>
+    <style>
+      .name, 
+      .email {
+        display: block;
+      }
+      .name {
+        margin-bottom: 5px;
+      }
+      .permission {
+        display: inline-block;
+        width: 200px;
+        vertical-align: middle;
+      }
+      button {
+        vertical-align: middle;
+      }
+      .google-search {
+        text-align: center;
+        width: 500px;
+      }
+      .google-logo {
+        width: 200px;
+      }
+      .search-input {
+        width: 500px;
+        border-radius: 20px;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        box-shadow: 0px 1px 10px gray;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+      .first-name {
+        margin-right: 5px;
+        margin-bottom: 10px;
+        width: 100px;
+      }
+      .last-name {
+        width: 100px;
+      }
+      .email-address {
+        display: block;
+        margin-bottom: 10px;
+        width: 215px;
+      }
+      .sign-up-button {
+        color: white;
+        background-color: blue;
+        border: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 10px;
+        width: 215px;
+      }
+    </style>
+  </head>
+  <body>
+    <input class="name" type="text" placeholder="Name">
+    <input class="email" type="text" placeholder="Email">
+    <p class="permission"> Thanks for chatting with our customer support. Would you like to take our quick survey?</p>
+    <button class="yes"> Yes </button>
+    <button class="no"> No </button>
+    <div class="google-search">
+      <img class="google-logo" src="images/google-logo.jpg">
+      <input class="search-input" type="text" placeholder="Search Google or type a URL">
+    </div>
+    <input class="first-name" type="text" placeholder="First Name">
+    <input class="last-name" type="text" placeholder="Last Name">
+    <input class="email-address" type="text" placeholder="Email">
+    <button class="sign-up-button">Sign Up</button>
+  </body>
+</html>
